@@ -8,6 +8,7 @@ package software.week2;
 public class Student {
     private int id; 
     private String name;
+    private String address;
 
     /**
      * @return the id
@@ -36,5 +37,18 @@ public class Student {
     public void setName(String name) {
         this.name = name;
     }
-    
+
+    /**
+     * @return the address
+     */
+    public String getAddress() {
+        return address;
+    }
+
+    /**
+     * @param address the address to set
+     */
+    public void setAddress(String address) {
+        this.address = address;
+    }
 }
