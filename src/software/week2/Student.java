@@ -9,7 +9,7 @@ public class Student {
     private int id; 
     private String name;
     private String address;
-    String programName; 
+    private String programName; 
 
     /**
      * @return the id
@@ -51,5 +51,19 @@ public class Student {
      */
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    /**
+     * @return the programName
+     */
+    public String getProgramName() {
+        return programName;
+    }
+
+    /**
+     * @param programName the programName to set
+     */
+    public void setProgramName(String programName) {
+        this.programName = programName;
     }
 }

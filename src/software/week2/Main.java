@@ -31,6 +31,8 @@ public class Main {
             System.out.println("Enter name: ");
             s[i].setName(keysIn.next());
         }
+        
+        System.out.println("Testing my repository.");
     }
     
 }
