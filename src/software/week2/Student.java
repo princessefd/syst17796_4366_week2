@@ -2,7 +2,9 @@
 package software.week2;
         
 /**
- * This class is created to make and array for students
+ * This class is created to make and array for students.
+ * Testing github blah blah blah
+ * 
  * @author emilydiano
  */
 public class Student {
